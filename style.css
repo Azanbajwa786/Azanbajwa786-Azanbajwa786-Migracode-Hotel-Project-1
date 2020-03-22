@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-image: url("https://cache.marriott.com/marriottassets/marriott/BCNWH/bcnwh-exterior-7584-hor-wide.jpg?interpolation=progressive-bilinear&downsize=2880px:*");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+     background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+}
+
+.Logo{
+    color: white;
+    font-size: 3em;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    text-align: end;
+    margin-right: 20%;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.Logo p1:hover{
+    padding: 5px;
+    color: greenyellow;
+}
+
+
+.menu {
+    font-size: 2em;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+ul li{
+    display: inline-block;
+    padding: 12px;
+    color: white;
+    margin-top: 5px;
+}
+
+.menu ul li a:hover {
+    padding: 5px;
+    color: greenyellow;
+}
+
+.menu ul li a:active{
+    color: black;
+}
+
+.main{
+     text-align: left;
+    border: 2px solid white;
+    margin-right: 60%;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    padding: 1em;
+}
+
+
+.first-headline{
+    text-align:left;
+    font-size: 2em;
+    color: white;
+    
+
+}
+
+
+.first-section{
+    text-align: left;
+    border: 2px solid white;
+    margin-right: 60%;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    padding: 1em;
+}
+
+.second-headline{
+    text-align:left;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.container-services{
+    display: flex;
+    flex-direction: row;
+}
+
+.service1{
+    text-align: left;
+    border: 2px solid white;
+    font-size: 1.5em;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    color:white;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding:1em;
+    margin-bottom: 20px;
+}
+
+
+.third-headline{
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+.button1{
+  font-size: 35px;
+   
+}
+
+.button1 a:hover{
+    padding: 2px;
+    color: yellowgreen;
+}
+
+.menu-footer{
+   
+    font-size: 2em;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.footer-end{
+     color: wheat;
+}
+
+.main-footer{
+    border: 1px solid wheat;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+}
+
+
+.main-footer ul li a:hover{
+    padding: 2px;
+    color: yellowgreen;
+    
+}
+
+.end-footer{
+     border: 1px solid wheat;
+    font-family: cursive;
+    font-variant: normal;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
