@@ -7,7 +7,7 @@ body{
     background-image: url("https://cache.marriott.com/marriottassets/marriott/BCNWH/bcnwh-exterior-7584-hor-wide.jpg?interpolation=progressive-bilinear&downsize=2880px:*");
     background-size: 100% 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction:  column;
 }
 
 header{
